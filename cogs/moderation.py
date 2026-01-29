@@ -155,7 +155,7 @@ class Moderation(commands.Cog):
 
     @commands.command()
     async def report(self, ctx, *, reason):
-        channel = self.bot.get_channel(1204473623943970867)
+        channel = self.bot.get_channel(1457815522874888293)
         if not channel: 
             return await ctx.send("Ошибка связи.")
         
